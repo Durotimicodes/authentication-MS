@@ -11,7 +11,7 @@ import (
 type JsonResponse struct {
 	Error   bool        `json:"error"`
 	Message string      `json:"message"`
-	Date    interface{} `json:"data"`
+	Data    interface{} `json:"data"`
 }
 
 // function readJSON

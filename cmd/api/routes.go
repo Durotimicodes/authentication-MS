@@ -6,7 +6,6 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"
-	"github.com/go-openapi/runtime/middleware"
 )
 
 func (app *Config) routes() http.Handler {
